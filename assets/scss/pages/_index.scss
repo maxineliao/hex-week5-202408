@@ -1,0 +1,38 @@
+main {
+	height: 100dvh;
+}
+p {
+	margin: 0;
+}
+small {
+	font-size: 0.75rem;
+}
+.material-symbols-outlined{
+	font-variation-settings:'FILL' 1;
+	&.filled{
+		font-variation-settings:'GRAD' -25;
+	}
+	&.outlined {
+		font-variation-settings:'FILL' 0;
+	}
+}
+.user-img-container {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+aside {
+	.logo {
+		max-width: 152px;
+	}
+	.user-card {
+		margin-top: auto;
+	}
+	.nav-link{
+		&:hover {
+			background-color: $gray-300;
+		}
+		&.active .material-symbols-outlined{
+			margin-left: -4px;
+		}
+	}
+}
